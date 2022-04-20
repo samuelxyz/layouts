@@ -7,19 +7,21 @@ These layouts may be subject to change; any changes will be indicated if they oc
 # ints
 
 ```
-f o u l q  x y d b ,
- h a e r j  v s t n i
-  ' / w m z  g c k p .
+f o u m j  x c d b ,
+ h a e r q  y s t n i
+  ' / l w z  v g k p .
 ```
 
 This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for spacebar. A non-angle-modded version can be obtained by cycling `z` to the left end of the bottom row.
 
-Notable features:
+Notable characteristics:
 - High rolls, majority inward.
 - Unusually high onehands, extremely inward (2.4 inward ratio, increases to 3.3 when adding space on the right thumb).
-- Upper index positions can support alt fingering to remove same finger sequences such as `lm`, `sys`, `cyc`, and possibly `lw` by pressing `l` and `y` with the middle fingers.
 - High redirects, though only slightly higher than Colemak.
 - Low alternation.
+- Low lateral stretching.
+- Reasonably low dsfb (according to the genkey skipgram weightings).
+- Index fingers can support alt fingering to remove same finger sequences such as `wl`, `syst`, `cyc`, and possibly `lm`.
 
 ## genkey stats
 
@@ -27,9 +29,9 @@ Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey) usin
 
 ```
 ints
-f o u l q  x y d b ,
-h a e r j  v s t n i
-' / w m z  g c k p .
+f o u m j  x c d b ,
+h a e r q  y s t n i
+' / l w z  v g k p .
 Rolls (l): 29.87%
         Inward: ~18.78%
         Outward: ~11.09%
@@ -39,21 +41,32 @@ Rolls (r): 21.05%
 Alternates: ~21.49%
 Onehands: ~6.47%
 Redirects: ~12.20%
-Finger Speed (weighted): [0.12 2.05 1.12 4.96 3.68 0.71 0.74 1.19]
-Finger Speed (unweighted): [0.18 7.38 5.37 27.26 20.25 3.40 2.65 1.79]
-Highest Speed (weighted): 4.96 (LI)
-Highest Speed (unweighted): 27.26 (LI)
+Finger Speed (weighted): [0.12 2.05 1.12 4.49 3.24 0.71 0.74 1.19]
+Finger Speed (unweighted): [0.18 7.38 5.37 24.68 17.82 3.40 2.65 1.79]
+Highest Speed (weighted): 4.49 (LI)
+Highest Speed (unweighted): 24.68 (LI)
 Index Usage: 14.8% 14.8%
 SFBs: 0.923%
 DSFBs: 6.605%
-LSBs: 0.39%
+LSBs: 0.57%
 Top SFBs:
         sc 0.138%       rm 0.136%       ue 0.129%       ys 0.105%
         rl 0.077%       oa 0.075%       gs 0.061%       sy 0.049%
 
 Worst Bigrams:
-        lw 26.048       oa 16.790       lm 15.841       ue 14.676
-        rw 11.653       sc 11.290       o' 10.904       sg 10.847
+        ml 21.358       rl 18.368       oa 16.790       ue 14.676
+        cs 11.290       o' 10.904       mr 10.294       ys 8.489
+```
+
+## Previous versions
+
+2022-04-20: Rearranged keys on the index fingers to improve `wl`, `'l`, and `g`.
+Previous version:
+
+```
+f o u l q  x y d b ,
+ h a e r j  v s t n i
+  ' / w m z  g c k p .
 ```
 
 # seht-drai
@@ -66,7 +79,7 @@ f u l v b  ; g n o j
 
 This layout is designed for a row-staggered board with angle mod. A non-angle-modded version can be obtained by cycling `q` to the left end of the bottom row.
 
-Notable features:
+Notable characteristics:
 - Incredibly high onehands, including the most frequent trigrams such as `the`, `and`, `ing`, `ion`
 - Rolls tend to be leftward, interestingly.
 - Low sfb and dsfb stats.
