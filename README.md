@@ -7,21 +7,22 @@ These layouts may be subject to change; any changes will be indicated if they oc
 # ints
 
 ```
-f o u m j  x c d b ,
- h a e r q  y s t n i
-  ' / l w z  v g k p .
+f o u m j  q g d p ,
+ h a e r x  v s t n i
+  ' / l w z  y c k b .
 ```
 
-This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for spacebar. A non-angle-modded version can be obtained by cycling `z` to the left end of the bottom row.
+This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for spacebar. 
 
 Notable characteristics:
 - High rolls, majority inward.
 - Unusually high onehands, extremely inward (2.4 inward ratio, increases to 3.3 when adding space on the right thumb).
 - High redirects, though only slightly higher than Colemak.
 - Low alternation.
-- Low lateral stretching.
-- Reasonably low dsfb (according to the genkey skipgram weightings).
-- Index fingers can support alt fingering to remove same finger sequences such as `wl`, `syst`, `cyc`, and possibly `lm`.
+- Low lateral stretching and reasonably low dsfb.
+- Index finger keys can optionally support alt fingering and/or sliding to remove same finger sequences, such as `rm`, `wl`, `sys`, `cyc`, `gs`, `sc`.
+
+This layout is tricky to obtain in a non-angle-modded format. (Cycling `z` to the left end of the bottom row causes `w` to get a bad position, so more keys must be rearranged.)
 
 ## genkey stats
 
@@ -29,38 +30,37 @@ Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey) usin
 
 ```
 ints
-f o u m j  x c d b ,
-h a e r q  y s t n i
-' / l w z  v g k p .
-Rolls (l): 29.87%
-        Inward: ~18.78%
-        Outward: ~11.09%
-Rolls (r): 21.05%
-        Inward: ~12.56%
-        Outward: ~8.49%
-Alternates: ~21.49%
-Onehands: ~6.47%
-Redirects: ~12.20%
-Finger Speed (weighted): [0.12 2.05 1.12 4.49 3.24 0.71 0.74 1.19]
-Finger Speed (unweighted): [0.18 7.38 5.37 24.68 17.82 3.40 2.65 1.79]
-Highest Speed (weighted): 4.49 (LI)
-Highest Speed (unweighted): 24.68 (LI)
-Index Usage: 14.8% 14.8%
-SFBs: 0.923%
-DSFBs: 6.605%
-LSBs: 0.57%
+f o u m j  q g d p ,
+h a e r x  v s t n i
+' / l w z  y c k b .
+Rolls (l): 30.10%
+        Inward: ~19.03%
+        Outward: ~11.07%
+Rolls (r): 20.78%
+        Inward: ~12.59%
+        Outward: ~8.19%
+Alternates: ~21.61%
+Onehands: ~6.43%
+Redirects: ~12.21%
+Finger Speed (weighted): [0.12 2.05 1.12 4.66 3.39 0.71 0.74 1.19]
+Finger Speed (unweighted): [0.18 7.38 5.37 25.65 18.63 3.40 2.65 1.79]
+Highest Speed (weighted): 4.66 (LI)
+Highest Speed (unweighted): 25.65 (LI)
+Index Usage: 14.9% 14.7%
+SFBs: 0.911%
+DSFBs: 6.627%
+LSBs: 0.58%
 Top SFBs:
-        sc 0.138%       rm 0.136%       ue 0.129%       ys 0.105%
-        rl 0.077%       oa 0.075%       gs 0.061%       sy 0.049%
+        sc 0.138%       rm 0.136%       ue 0.129%   ys 0.105%
+        rl 0.077%       oa 0.075%       gs 0.061%   sy 0.049%
 
 Worst Bigrams:
-        ml 21.358       rl 18.368       oa 16.790       ue 14.676
-        cs 11.290       o' 10.904       mr 10.294       ys 8.489
-```
+        ml 21.358       rl 18.368       oa 16.790   ue 14.676
+        sy 14.467       sc 11.290       o' 10.904   mr 10.294```
 
-## Previous versions
+## Changelog
 
-2022-04-20: Rearranged keys on the index fingers to improve `wl`, `'l`, and `g`.
+2022-04-20: Rearranged keys on the index fingers to improve `wl` `'l` `ky` `cy`, add `gs` slide, and avoid `xc`. Also flipped `bp` to reduce bottom ring usage. Main drawback is possibly reduced comfort of `ing`.
 Previous version:
 
 ```
@@ -77,7 +77,7 @@ f u l v b  ; g n o j
   ' m p w q  y c x / , 
 ```
 
-This layout is designed for a row-staggered board with angle mod. A non-angle-modded version can be obtained by cycling `q` to the left end of the bottom row.
+This layout is designed for a row-staggered board with angle mod. 
 
 Notable characteristics:
 - Incredibly high onehands, including the most frequent trigrams such as `the`, `and`, `ing`, `ion`
@@ -86,6 +86,8 @@ Notable characteristics:
 - Redirect levels comparable to Colemak.
 - Low alternation.
 - The left ring and pinky may be a problem point (imagine typing `useful`).
+
+If you really want a non-angle-modded version, try cycling `z` to the bottom left and moving `q` to where `z` currently is.
 
 ## genkey stats
 
