@@ -56,7 +56,8 @@ Top SFBs:
 
 Worst Bigrams:
         ml 21.358       rl 18.368       oa 16.790   ue 14.676
-        sy 14.467       sc 11.290       o' 10.904   mr 10.294```
+        sy 14.467       sc 11.290       o' 10.904   mr 10.294
+```
 
 ## Changelog
 
