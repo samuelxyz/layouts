@@ -83,7 +83,7 @@ This layout is designed for a row-staggered board with angle mod.
 Notable characteristics:
 - Incredibly frequent onehands, including the most common trigrams such as `the`, `and`, `ing`, `ion`
 - Rolls tend to be leftward, interestingly.
-- Low sfb and dsfb stats.
+- Low sfb, dsfb, and lateral stretching.
 - Redirect levels comparable to Colemak.
 - Low alternation.
 - The left ring and pinky may be a problem point (imagine typing `useful`).
@@ -136,7 +136,7 @@ y o u b .  x k c l v
 This layout is a mod of [the rolll layout by Semi](https://semilin.github.io/other_layouts.html#org017c395), and was developed in collaboration with [<3](https://github.com/mindhatch) and trialyzer. It introduces angle mod and reduces same-finger and lateral-stretch frequency compared to the original rolll layout.
 
 Rollla is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for space. Notable characteristics:
-- Low dsfb (better than vanilla semimak) and fairly low sfb.
+- Low dsfb (better than vanilla semimak) and fairly low sfb. Low lateral stretching.
 - Plenty of rolls, especially inward rolls.
 - Very reasonable redirect frequency considering the level of rolls and onehands.
 - Moderate alternation.
@@ -187,7 +187,7 @@ y o u b .  x k c l v
 
 A variant of rollla (see above) but with the `/` replaced by a repeat key - this is indicated by the position marked `R`, and is pressed with the left thumb. A repeat key simply duplicates the previous letter, which essentially eliminates double-tapping, thereby reducing finger movement and strain. Since double letters make up about 2.5% of bigrams, this may be a significant gain. Trialyzer data shows that double letters are nearly as slow as sfbs.
 
-This is the layout I currently use. The layout is called rollax because the repeat key is on what would be `x` in QWERTY. Pressing it with the left thumb may sound extreme, but seems to actually work quite well.
+This is the layout I currently use. The layout is called rolllax because the repeat key is on what would be `x` in QWERTY. Pressing it with the left thumb may sound extreme, but seems to actually work quite well.
 
 ## trialyzer stats
 
