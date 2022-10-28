@@ -125,6 +125,25 @@ Worst Bigrams:
         tp 15.416       i. 11.352       e' 10.620       bt 9.998
 ```
 
+## amini stats
+
+Using ClemenPine's [amini](https://github.com/clemenpine/amini), we can include the right-thumb space in the statistics. This causes the onehand/redirect ratio to become absolutely insane:
+
+```
+seht-drai
+f u l v b ; g n o j
+s e h t k q d r a i
+z ' m p w y c x / ,
+
+ Alt: 21.75%
+Roll: 47.43%   (In: 21.57% Out: 25.86%)
+ One: 10.34%   (In:  5.38% Out:  4.96%)
+ Red:  7.89%
+
+SFB: 0.54%
+DFB: 3.54%
+```
+
 # rollla
 
 ```
