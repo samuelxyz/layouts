@@ -75,7 +75,7 @@ f o u l q  x y d b ,
 ```
 f u l v b  q g n o j 
  s e h t k  ' d r a i .
-  ; m p w q  y c x / , 
+  ; m p w z  y c x / , 
 ```
 
 This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should press space.
@@ -98,23 +98,23 @@ Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey) usin
 seht-drai
 f u l v b  q g n o j
 s e h t k  ' d r a i .
-; m p w q  y c x / ,
-Rolls (l): 22.84%
-        Inward: ~7.69%
-        Outward: ~15.16%
+; m p w z  y c x / ,
+Rolls (l): 22.69%
+        Inward: ~7.64%
+        Outward: ~15.06%
 Rolls (r): 25.25%
-        Inward: ~16.36%
+        Inward: ~16.35%
         Outward: ~8.90%
-Alternates: ~22.23%
-Onehands: ~10.10%
-Redirects: ~11.02%
-Finger Speed (weighted): [1.48 2.20 2.70 3.93 2.20 1.51 1.68 1.96]
-Finger Speed (unweighted): [2.22 7.91 12.97 21.59 12.09 7.27 6.06 2.95]
-Highest Speed (weighted): 3.93 (LI)
-Highest Speed (unweighted): 21.59 (LI)
+Alternates: ~22.49%
+Onehands: ~10.07%
+Redirects: ~10.94%
+Finger Speed (weighted): [1.48 2.20 2.70 3.97 2.20 1.51 1.68 1.96]
+Finger Speed (unweighted): [2.22 7.91 12.97 21.81 12.10 7.27 6.06 2.95]
+Highest Speed (weighted): 3.97 (LI)
+Highest Speed (unweighted): 21.81 (LI)
 Index Usage: 16.3% 11.2%
-SFBs: 0.761%
-DSFBs: 5.972%
+SFBs: 0.764%
+DSFBs: 5.978%
 LSBs: 0.77%
 Top SFBs:
         rn 0.137%       ue 0.129%       pt 0.078%       tw 0.075%
