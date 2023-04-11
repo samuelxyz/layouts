@@ -12,7 +12,7 @@ f o u m j  q g d p ,
   ' / l w z  y c k b .
 ```
 
-This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for spacebar. 
+This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should press space. 
 
 Notable characteristics:
 - High rolls, majority inward.
@@ -73,22 +73,22 @@ f o u l q  x y d b ,
 # seht-drai
 
 ```
-f u l v b  ; g n o j 
- s e h t k  z d r a i .
-  ' m p w q  y c x / , 
+f u l v b  q g n o j 
+ s e h t k  ' d r a i .
+  ; m p w z  y c x / , 
 ```
 
-This layout is designed for a row-staggered board with angle mod. 
+This layout is designed for a row-staggered board with angle mod. Preferably, the right thumb should press space.
 
 Notable characteristics:
 - Incredibly frequent onehands, including the most common trigrams such as `the`, `and`, `ing`, `ion`
 - Rolls tend to be leftward, interestingly.
-- Low sfb and dsfb stats.
+- Low sfb, dsfb, and lateral stretching.
 - Redirect levels comparable to Colemak.
 - Low alternation.
-- The left ring and pinky may be a problem point (imagine typing `useful`).
+- Based on a test drive, the main problem points are on the left hand: imagine typing `useful`, or `lemurs`.
 
-If you really want a non-angle-modded version, try cycling `z` to the bottom left and moving `q` to where `z` currently is.
+For a non-angle-modded version, try cycling `z` to the bottom left. You may want to also swap `w` with `k`, and `y` with `'`, to get those more common letters out of the corners, especially for non-row-staggered boards.
 
 ## genkey stats
 
@@ -96,33 +96,65 @@ Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey) usin
 
 ```
 seht-drai
-f u l v b  ; g n o j
-s e h t k  z d r a i .
-' m p w q  y c x / ,
-Rolls (l): 23.00%
-        Inward: ~7.82%
-        Outward: ~15.18%
-Rolls (r): 25.08%
-        Inward: ~16.19%
-        Outward: ~8.89%
-Alternates: ~22.10%
-Onehands: ~10.09%
-Redirects: ~11.10%
-Finger Speed (weighted): [0.64 2.49 2.25 3.47 1.80 1.19 1.23 1.50]
-Finger Speed (unweighted): [0.96 8.97 10.79 19.11 9.88 5.72 4.44 2.24]
-Highest Speed (weighted): 3.47 (LI)
-Highest Speed (unweighted): 19.11 (LI)
-Index Usage: 16.3% 10.9%
-SFBs: 0.776%
-DSFBs: 6.035%
-LSBs: 0.67%
+f u l v b  q g n o j
+s e h t k  ' d r a i .
+; m p w z  y c x / ,
+Rolls (l): 22.69%
+        Inward: ~7.64%
+        Outward: ~15.06%
+Rolls (r): 25.25%
+        Inward: ~16.35%
+        Outward: ~8.90%
+Alternates: ~22.49%
+Onehands: ~10.07%
+Redirects: ~10.94%
+Finger Speed (weighted): [1.48 2.20 2.70 3.97 2.20 1.51 1.68 1.96]
+Finger Speed (unweighted): [2.22 7.91 12.97 21.81 12.10 7.27 6.06 2.95]
+Highest Speed (weighted): 3.97 (LI)
+Highest Speed (unweighted): 21.81 (LI)
+Index Usage: 16.3% 11.2%
+SFBs: 0.764%
+DSFBs: 5.978%
+LSBs: 0.77%
 Top SFBs:
         rn 0.137%       ue 0.129%       pt 0.078%       tw 0.075%
-        oa 0.075%       dy 0.049%       e' 0.048%       cy 0.032%
+        oa 0.075%       dy 0.049%       cy 0.032%       dg 0.026%
 
 Worst Bigrams:
-        lm 24.472       ue 19.568       oa 16.790       nr 16.162
-        tp 15.416       i. 11.352       e' 10.620       bt 9.998
+        lm 25.285       ue 23.021       oa 19.752       nr 19.014
+        tp 16.562       i. 12.791       bt 10.741       fs 10.397
+```
+
+## amini stats
+
+Using the AKL discord server's [amini analyzer](https://github.com/Apsu/cmini), the combined MonkeyType/TypeRacer quotes corpus shows a striking onehand/redirect ratio:
+
+```
+seht-drai (Tanamr)
+  f u l v b  q g n o j  
+  s e h t k  ' d r a i .
+   ; m p w z  y c x / ,  
+
+MONKEYRACER:
+  Alt: 17.09%
+  Rol: 46.17%   (In/Out: 22.29% | 23.88%)
+  One:  9.83%   (In/Out:  5.20% |  4.63%)
+  Red:  6.46%   (Bad:     1.40%)
+
+  SFB: 0.80%
+  SFS: 4.72%
+
+  LH/RH: 51.41% | 48.59%
+```
+
+## Changelog
+
+2023-03-17: Swapped `q` and `z` between hands to improve `qu` and slightly lower same-finger stats. Cycled punctuation to improve `'`. Previous version:
+
+```
+f u l v b  ; g n o j 
+ s e h t k  z d r a i .
+  ' m p w q  y c x / , 
 ```
 
 # seht-frai and seht-yfrai
@@ -216,10 +248,10 @@ y o u b .  x k c l v
   ' / p w z  f d g j q
 ```
 
-This layout is a mod of [the rolll layout by Semi](https://semilin.github.io/other_layouts.html#org017c395), and was developed in collaboration with Discord user `<3#6669` and trialyzer. It introduces angle mod and reduces same-finger and lateral-stretch frequency compared to the original rolll layout.
+This layout is a mod of [the rolll layout by Semi](https://semilin.github.io/other_layouts.html#org017c395), and was developed in collaboration with [<3](https://github.com/mindhatch) and trialyzer. It introduces angle mod and reduces same-finger and lateral-stretch frequency compared to the original rolll layout.
 
 Rollla is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for space. Notable characteristics:
-- Low dsfb (better than vanilla semimak) and fairly low sfb.
+- Low dsfb (better than vanilla semimak) and fairly low sfb. Low lateral stretching.
 - Plenty of rolls, especially inward rolls.
 - Very reasonable redirect frequency considering the level of rolls and onehands.
 - Moderate alternation.
