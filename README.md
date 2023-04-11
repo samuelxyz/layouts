@@ -125,6 +125,89 @@ Worst Bigrams:
         tp 15.416       i. 11.352       e' 10.620       bt 9.998
 ```
 
+# seht-frai and seht-yfrai
+
+These layouts are a lot like seht-drai, but with `m` and `f` moved to fix some awkward redirects and scissoring movements on the left hand. `seht-frai` has a `yi` pinky. `seht-yfrai` moves `y` to the index finger, reducing pinky load but adding a smidge more LSB. Both layouts lose the `and` onehand, and have slightly more LSB than `seht-drai`.
+
+These layouts are designed without angle mod. Applying angle mod doesn't add a huge amount of extra sfb to the left index, but it does add yet more load to that finger, which is already the busiest finger. Genkey suggests swapping `m` and `k` to reduce movement.
+
+```
+seht-frai
+b u l w z  ' g n o y
+s e h t m  , f r a i ;
+v / . d k  p c x q j
+
+seht-yfrai
+b u l w z  ' g n o ,
+s e h t m  y f r a i ;
+v / . d k  p c x q j
+```
+
+## genkey stats
+
+Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey).
+
+```
+seht-frai
+b u l w z  ' g n o y
+s e h t m  , f r a i ;
+v / . d k  p c x q j
+Rolls (l): 21.96%
+        Inward: ~9.05%
+        Outward: ~12.91%
+Rolls (r): 25.35%
+        Inward: ~16.84%
+        Outward: ~8.51%
+Alternates: ~23.18%
+Onehands: ~9.07%
+Redirects: ~12.06%
+Finger Speed (weighted): [2.53 2.08 1.47 3.45 2.15 1.51 1.61 1.70]
+Finger Speed (unweighted): [3.80 7.48 7.04 18.96 11.80 7.27 5.80 2.55]
+Highest Speed (weighted): 3.45 (LI)
+Highest Speed (unweighted): 18.96 (LI)
+Index Usage: 17.7% 10.8%
+SFBs: 0.723%
+DSFBs: 6.193%
+LSBs: 0.79%
+Top SFBs:
+        rn 0.137%       ue 0.129%       tw 0.075%       oa 0.075%
+        g, 0.043%       l. 0.042%       bs 0.039%       yi 0.037%
+
+Worst Bigrams:
+        ue 23.021       oa 19.752       nr 19.014       bs 15.422
+        yi 15.255       l. 11.551       tm 10.952       ss 9.661
+
+seht-yfrai
+b u l w z  ' g n o ,
+s e h t m  y f r a i ;
+v / . d k  p c x q j
+Rolls (l): 21.96%
+        Inward: ~9.05%
+        Outward: ~12.91%
+Rolls (r): 25.28%
+        Inward: ~16.73%
+        Outward: ~8.55%
+Alternates: ~23.18%
+Onehands: ~9.13%
+Redirects: ~12.02%
+Finger Speed (weighted): [2.53 2.08 1.47 3.45 2.33 1.51 1.61 1.06]
+Finger Speed (unweighted): [3.80 7.48 7.04 18.96 12.83 7.27 5.80 1.58]
+Highest Speed (weighted): 3.45 (LI)
+Highest Speed (unweighted): 18.96 (LI)
+Index Usage: 17.7% 11.7%
+SFBs: 0.725%
+DSFBs: 6.200%
+LSBs: 0.94%
+Top SFBs:
+        rn 0.137%       ue 0.129%       tw 0.075%       oa 0.075%
+        l. 0.042%       bs 0.039%       cy 0.032%       tm 0.028%
+
+Worst Bigrams:
+        ue 23.021       oa 19.752       nr 19.014       bs 15.422
+        l. 11.551       tm 10.952       ss 9.661        sv 9.557
+
+```
+
 # rollla
 
 ```
@@ -141,6 +224,8 @@ Rollla is designed for a row-staggered board with angle mod. Preferably, the rig
 - Very reasonable redirect frequency considering the level of rolls and onehands.
 - Moderate alternation.
 - T on the pinky may be intimidatingly high frequency, but the movement on that pinky is actually very low.
+
+Rollla rollla rollla!
 
 ## genkey stats
 
@@ -187,12 +272,10 @@ y o u b .  x k c l v
 
 A variant of rollla (see above) but with the `/` replaced by a repeat key - this is indicated by the position marked `R`, and is pressed with the left thumb. A repeat key simply duplicates the previous letter, which essentially eliminates double-tapping, thereby reducing finger movement and strain. Since double letters make up about 2.5% of bigrams, this may be a significant gain. Trialyzer data shows that double letters are nearly as slow as sfbs.
 
-This is the layout I currently use. The layout is called rollax because the repeat key is on what would be `x` in QWERTY. Pressing it with the left thumb may sound extreme, but seems to actually work quite well.
+This is the layout I currently use. The layout is called rolllax because the repeat key is on what would be `x` in QWERTY. Pressing it with the left thumb may sound extreme, but seems to actually work quite well.
 
 ## trialyzer stats
 
-Genkey does not support repeat keys and also does not support thumb keys. Therefore, in place of the genkey stats, below are the statistics from my copy of trialyzer reflecting the way I currently use the layout. 
+Genkey does not support repeat keys and also does not support thumb keys. Therefore, in place of the genkey stats, below are some statistics (edited for brevity) from my copy of trialyzer, including (weighted) typing speed data. Note that the `sfr` category has been completely wiped out by the repeat key, resulting in a substantial stats improvement.
 
-Note that in the image, space and shift are included in the stats. Trialyzer also uses [slightly different definitions](https://github.com/samuelxyz/trialyzer/wiki/Nstroke-categories) of the statistics compared to genkey. The numbers are therefore different from what one may expect.
-
-![](rolllax_analysis.png)
+![](rolllax_diff.png)
