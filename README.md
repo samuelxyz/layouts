@@ -147,6 +147,8 @@ MONKEYRACER:
   LH/RH: 51.41% | 48.59%
 ```
 
+(This was from the time when amini included thumb space in the statistics.)
+
 ## Changelog
 
 2023-03-17: Swapped `q` and `z` between hands to improve `qu` and slightly lower same-finger stats. Cycled punctuation to improve `'`. Previous version:
@@ -308,6 +310,62 @@ This is the layout I currently use. The layout is called rolllax because the rep
 
 ## trialyzer stats
 
-Genkey does not support repeat keys and also does not support thumb keys. Therefore, in place of the genkey stats, below are some statistics (edited for brevity) from my copy of trialyzer, including (weighted) typing speed data. Note that the `sfr` category has been completely wiped out by the repeat key, resulting in a substantial stats improvement.
+Genkey does not support repeat keys and also does not support thumb keys. Therefore, in place of the genkey stats, below are some statistics (edited for brevity) from my copy of trialyzer, including (weighted) typing speed data. This shows the _difference_ in stats when moving from rollla to rolllax. Note that the `sfr` category has been completely wiped out by the repeat key, resulting in a substantial stats improvement.
 
 ![](rolllax_diff.png)
+
+# enouf
+
+```
+q r a , z  f w l d v
+e n o u .  g c h t s
+j x ' i /  p y m k b
+```
+
+This layout is for the brave. Due to the right index being completely packed with moderately-common consonants, it is probably better to use this with a column-staggered board (`p` in particular is in a bad spot for row stagger).
+
+Features:
+- Low sfb, extremely low dsfb
+- High rolls, frequent onehands such as `ion`, `one`, `are`, `ine`
+- Reasonable redirect level, though beware of no-index redirects such as `rea`/`ear` and (less frequent, but worse) `ean`/`nea`.
+- Some weird scissory movements such as `'r`, `wh`, and your typical `or`/`an` half-scissors with this kind of rn/oa interaction.
+- Vaguely low-ish lateral stretching
+- Busy pinkies
+
+Tips:
+- Using a repeat key would be helpful to remove `ee` double-taps on the pinky. 
+- If a 2-row change between the middle and index finger (like `ai, ly`) is not good for you, you will probably want to rearrange the indexes. Good luck.
+- Swapping `f` with `v` gives you the original `enou`. This increases pinky load, and makes it even harder to type `sfb` if you are someone who talks about keyboard layouts a lot. However, in return you get the lowest genkey-weighted dsfb count ever seen, and a slightly less common letter in that top index corner.
+
+## genkey stats
+
+```
+enouf
+q r a , z  f w l d v
+e n o u .  g c h t s
+j x ' i /  p y m k b
+Rolls (l): 33.10%
+        Inward: ~15.69%
+        Outward: ~17.41%
+Rolls (r): 17.85%
+        Inward: ~10.50%
+        Outward: ~7.35%
+Alternates: ~30.76%
+Onehands: ~3.59%
+Redirects: ~6.25%
+Finger Speed (weighted): [2.05 2.02 1.61 2.74 2.71 2.07 1.28 2.54]
+Finger Speed (unweighted): [3.07 7.28 7.73 15.09 14.89 9.93 4.62 3.81]
+Highest Speed (weighted): 2.74 (LI)
+Highest Speed (unweighted): 15.09 (LI)
+Index Usage: 12.3% 13.1%
+SFBs: 0.686%
+DSFBs: 5.523%
+LSBs: 0.97%
+Top SFBs:
+        rn 0.137%       ui 0.107%       oa 0.075%       iz 0.056%
+        eq 0.039%       bs 0.039%       je 0.039%       cy 0.032%
+
+Worst Bigrams:
+        rn 25.352       lm 18.964       ee 18.648       sb 15.422
+        ao 14.814       zi 12.812       ui 10.400       ss 9.661
+```
