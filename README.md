@@ -4,6 +4,63 @@ Many of the layouts developed by [trialyzer](https://github.com/samuelxyz/trialy
 
 These layouts may be subject to change; any changes will be indicated if they occur.
 
+# enouf
+
+```
+q r a , z  f w l d v
+e n o u .  g c h t s
+j x ' i /  p y m k b
+```
+
+This layout is for the brave. Due to the right index being completely packed with moderately-common consonants, it is probably better to use this with a column-staggered board (`f` in is in a bad spot for row stagger).
+
+Features:
+- Low sfb, extremely low dsfb
+- High rolls, frequent onehands such as `ion`, `one`, `are`, `ine`
+- Reasonable redirect level, though beware of no-index redirects such as `rea`/`ear` and (less frequent, but worse) `ean`/`nea`.
+- Some weird scissory movements such as `'r`, `wh`, and your typical `or`/`an` half-scissors with this kind of rn/oa interaction.
+- Vaguely low-ish lateral stretching
+- Busy pinkies
+
+Tips:
+- Using a repeat key would be helpful to remove `ee` double-taps on the pinky. 
+- Applying angle mod is... not great, not terrible.
+- If a 2-row change between the middle and index finger (like `ai, ly`) is not good for you, you will probably want to rearrange the indexes. Good luck.
+- Swapping `f` with `v` gives you the original `enou`. This increases pinky load, and makes it even harder to type `sfb` if you are someone who talks about keyboard layouts a lot. However, in return you get the lowest genkey-weighted dsfb count ever seen, and a slightly less common letter in that top index corner.
+
+## genkey stats
+
+```
+enouf
+q r a , z  f w l d v
+e n o u .  g c h t s
+j x ' i /  p y m k b
+Rolls (l): 33.10%
+        Inward: ~15.69%
+        Outward: ~17.41%
+Rolls (r): 17.85%
+        Inward: ~10.50%
+        Outward: ~7.35%
+Alternates: ~30.76%
+Onehands: ~3.59%
+Redirects: ~6.25%
+Finger Speed (weighted): [2.05 2.02 1.61 2.74 2.71 2.07 1.28 2.54]
+Finger Speed (unweighted): [3.07 7.28 7.73 15.09 14.89 9.93 4.62 3.81]
+Highest Speed (weighted): 2.74 (LI)
+Highest Speed (unweighted): 15.09 (LI)
+Index Usage: 12.3% 13.1%
+SFBs: 0.686%
+DSFBs: 5.523%
+LSBs: 0.97%
+Top SFBs:
+        rn 0.137%       ui 0.107%       oa 0.075%       iz 0.056%
+        eq 0.039%       bs 0.039%       je 0.039%       cy 0.032%
+
+Worst Bigrams:
+        rn 25.352       lm 18.964       ee 18.648       sb 15.422
+        ao 14.814       zi 12.812       ui 10.400       ss 9.661
+```
+
 # ints
 
 ```
@@ -22,7 +79,7 @@ Notable characteristics:
 - Low lateral stretching and reasonably low dsfb.
 - Index finger keys can optionally support alt fingering and/or sliding to remove same finger sequences, such as `rm`, `wl`, `sys`, `cyc`, `gs`, `sc`.
 
-This layout is tricky to obtain in a non-angle-modded format. (Cycling `z` to the left end of the bottom row causes `w` to get a bad position, so more keys must be rearranged.)
+This layout is tricky to obtain in a non-angle-modded format. (Cycling `z` to the left end of the bottom row causes `w` to get a bad position, so you have to either rearrange more keys, or just cope.)
 
 ## genkey stats
 
@@ -69,6 +126,78 @@ f o u l q  x y d b ,
  h a e r j  v s t n i
   ' / w m z  g c k p .
 ```
+
+# rollla
+
+```
+y o u b .  x k c l v
+ i a e n ,  m h s r t
+  ' / p w z  f d g j q
+```
+
+This layout is a mod of [the rolll layout by Semi](https://semilin.github.io/other_layouts.html#org017c395), and was developed in collaboration with [<3](https://github.com/mindhatch) and trialyzer. It introduces angle mod and reduces same-finger and lateral-stretch frequency compared to the original rolll layout.
+
+Rollla is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for space. Notable characteristics:
+- Low dsfb (better than vanilla semimak) and fairly low sfb. Low lateral stretching.
+- Plenty of rolls, especially inward rolls.
+- Very reasonable redirect frequency considering the level of rolls and onehands.
+- Moderate alternation.
+- T on the pinky may be intimidatingly high frequency, but the movement on that pinky is actually very low.
+
+Rollla rollla rollla!
+
+## genkey stats
+
+Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey) using the `-stagger` flag.
+
+```
+rollla
+y o u b .  x k c l v
+i a e n ,  m h s r t
+' / p w z  f d g j q
+Rolls (l): 28.05%
+        Inward: ~17.67%
+        Outward: ~10.38%
+Rolls (r): 17.81%
+        Inward: ~11.22%
+        Outward: ~6.59%
+Alternates: ~37.17%
+Onehands: ~2.48%
+Redirects: ~5.88%
+Finger Speed (weighted): [0.85 2.05 1.12 3.88 1.53 1.39 0.87 0.54]
+Finger Speed (unweighted): [1.28 7.38 5.37 21.33 8.42 6.69 3.13 0.81]
+Highest Speed (weighted): 3.88 (LI)
+Highest Speed (unweighted): 21.33 (LI)
+Index Usage: 14.4% 13.8%
+SFBs: 0.864%
+DSFBs: 5.554%
+LSBs: 0.54%
+Top SFBs:
+        sc 0.138%       ue 0.129%       n. 0.094%       n, 0.094%
+        wn 0.084%       rl 0.077%       oa 0.075%       gs 0.061%
+
+Worst Bigrams:
+        oa 16.790       ue 14.676       yi 12.966       cs 12.937
+        lr 11.828       .n 10.912       o' 10.904       .p 8.939
+```
+
+# rolllax
+
+```
+y o u b .  x k c l v
+ i a e n ,  m h s r t
+  ' R p w z  f d g j q
+```
+
+A variant of rollla (see above) but with the `/` replaced by a repeat key - this is indicated by the position marked `R`, and is pressed with the left thumb. A repeat key simply duplicates the previous letter, which essentially eliminates double-tapping, thereby reducing finger movement and strain. Since double letters make up about 2.5% of bigrams, this may be a significant gain. Trialyzer data shows that double letters are nearly as slow as sfbs.
+
+This is the layout I currently use. The layout is called rolllax because the repeat key is on what would be `x` in QWERTY. Pressing it with the left thumb may sound extreme, but seems to actually work quite well.
+
+## trialyzer stats
+
+Genkey does not support repeat keys and also does not support thumb keys. Therefore, in place of the genkey stats, below are some statistics (edited for brevity) from my copy of trialyzer, including (weighted) typing speed data. This shows the _difference_ in stats when moving from rollla to rolllax. Note that the `sfr` category has been completely wiped out by the repeat key, resulting in a substantial stats improvement.
+
+![](rolllax_diff.png)
 
 # seht-drai
 
@@ -240,132 +369,4 @@ Worst Bigrams:
         ue 23.021       oa 19.752       nr 19.014       bs 15.422
         l. 11.551       tm 10.952       ss 9.661        sv 9.557
 
-```
-
-# rollla
-
-```
-y o u b .  x k c l v
- i a e n ,  m h s r t
-  ' / p w z  f d g j q
-```
-
-This layout is a mod of [the rolll layout by Semi](https://semilin.github.io/other_layouts.html#org017c395), and was developed in collaboration with [<3](https://github.com/mindhatch) and trialyzer. It introduces angle mod and reduces same-finger and lateral-stretch frequency compared to the original rolll layout.
-
-Rollla is designed for a row-staggered board with angle mod. Preferably, the right thumb should be used for space. Notable characteristics:
-- Low dsfb (better than vanilla semimak) and fairly low sfb. Low lateral stretching.
-- Plenty of rolls, especially inward rolls.
-- Very reasonable redirect frequency considering the level of rolls and onehands.
-- Moderate alternation.
-- T on the pinky may be intimidatingly high frequency, but the movement on that pinky is actually very low.
-
-Rollla rollla rollla!
-
-## genkey stats
-
-Statistics from [semi's genkey analyzer](https://github.com/semilin/genkey) using the `-stagger` flag.
-
-```
-rollla
-y o u b .  x k c l v
-i a e n ,  m h s r t
-' / p w z  f d g j q
-Rolls (l): 28.05%
-        Inward: ~17.67%
-        Outward: ~10.38%
-Rolls (r): 17.81%
-        Inward: ~11.22%
-        Outward: ~6.59%
-Alternates: ~37.17%
-Onehands: ~2.48%
-Redirects: ~5.88%
-Finger Speed (weighted): [0.85 2.05 1.12 3.88 1.53 1.39 0.87 0.54]
-Finger Speed (unweighted): [1.28 7.38 5.37 21.33 8.42 6.69 3.13 0.81]
-Highest Speed (weighted): 3.88 (LI)
-Highest Speed (unweighted): 21.33 (LI)
-Index Usage: 14.4% 13.8%
-SFBs: 0.864%
-DSFBs: 5.554%
-LSBs: 0.54%
-Top SFBs:
-        sc 0.138%       ue 0.129%       n. 0.094%       n, 0.094%
-        wn 0.084%       rl 0.077%       oa 0.075%       gs 0.061%
-
-Worst Bigrams:
-        oa 16.790       ue 14.676       yi 12.966       cs 12.937
-        lr 11.828       .n 10.912       o' 10.904       .p 8.939
-```
-
-# rolllax
-
-```
-y o u b .  x k c l v
- i a e n ,  m h s r t
-  ' R p w z  f d g j q
-```
-
-A variant of rollla (see above) but with the `/` replaced by a repeat key - this is indicated by the position marked `R`, and is pressed with the left thumb. A repeat key simply duplicates the previous letter, which essentially eliminates double-tapping, thereby reducing finger movement and strain. Since double letters make up about 2.5% of bigrams, this may be a significant gain. Trialyzer data shows that double letters are nearly as slow as sfbs.
-
-This is the layout I currently use. The layout is called rolllax because the repeat key is on what would be `x` in QWERTY. Pressing it with the left thumb may sound extreme, but seems to actually work quite well.
-
-## trialyzer stats
-
-Genkey does not support repeat keys and also does not support thumb keys. Therefore, in place of the genkey stats, below are some statistics (edited for brevity) from my copy of trialyzer, including (weighted) typing speed data. This shows the _difference_ in stats when moving from rollla to rolllax. Note that the `sfr` category has been completely wiped out by the repeat key, resulting in a substantial stats improvement.
-
-![](rolllax_diff.png)
-
-# enouf
-
-```
-q r a , z  f w l d v
-e n o u .  g c h t s
-j x ' i /  p y m k b
-```
-
-This layout is for the brave. Due to the right index being completely packed with moderately-common consonants, it is probably better to use this with a column-staggered board (`p` in particular is in a bad spot for row stagger).
-
-Features:
-- Low sfb, extremely low dsfb
-- High rolls, frequent onehands such as `ion`, `one`, `are`, `ine`
-- Reasonable redirect level, though beware of no-index redirects such as `rea`/`ear` and (less frequent, but worse) `ean`/`nea`.
-- Some weird scissory movements such as `'r`, `wh`, and your typical `or`/`an` half-scissors with this kind of rn/oa interaction.
-- Vaguely low-ish lateral stretching
-- Busy pinkies
-
-Tips:
-- Using a repeat key would be helpful to remove `ee` double-taps on the pinky. 
-- If a 2-row change between the middle and index finger (like `ai, ly`) is not good for you, you will probably want to rearrange the indexes. Good luck.
-- Swapping `f` with `v` gives you the original `enou`. This increases pinky load, and makes it even harder to type `sfb` if you are someone who talks about keyboard layouts a lot. However, in return you get the lowest genkey-weighted dsfb count ever seen, and a slightly less common letter in that top index corner.
-
-## genkey stats
-
-```
-enouf
-q r a , z  f w l d v
-e n o u .  g c h t s
-j x ' i /  p y m k b
-Rolls (l): 33.10%
-        Inward: ~15.69%
-        Outward: ~17.41%
-Rolls (r): 17.85%
-        Inward: ~10.50%
-        Outward: ~7.35%
-Alternates: ~30.76%
-Onehands: ~3.59%
-Redirects: ~6.25%
-Finger Speed (weighted): [2.05 2.02 1.61 2.74 2.71 2.07 1.28 2.54]
-Finger Speed (unweighted): [3.07 7.28 7.73 15.09 14.89 9.93 4.62 3.81]
-Highest Speed (weighted): 2.74 (LI)
-Highest Speed (unweighted): 15.09 (LI)
-Index Usage: 12.3% 13.1%
-SFBs: 0.686%
-DSFBs: 5.523%
-LSBs: 0.97%
-Top SFBs:
-        rn 0.137%       ui 0.107%       oa 0.075%       iz 0.056%
-        eq 0.039%       bs 0.039%       je 0.039%       cy 0.032%
-
-Worst Bigrams:
-        rn 25.352       lm 18.964       ee 18.648       sb 15.422
-        ao 14.814       zi 12.812       ui 10.400       ss 9.661
 ```
